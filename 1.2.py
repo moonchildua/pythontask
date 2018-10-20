@@ -1,21 +1,3 @@
-# #n += 1
-# n = 1
-# while n < 5:
-#     n += 1
-#     print(n**2)
-#
-#
-# for n in [1,2,3,4,5]:
-#     print(n, "**2", n**2)
-
-# for animals in ["cat", "dog", "elephant"]:
-#     print(animals)
-
-# for animal in ["cat", "dog", "elephant"]:
-#     if animal == "cat":
-#         print("Hello", animal)
-#     else:
-#         print("go away!", animal)
 
 
 # rng = range(6)
