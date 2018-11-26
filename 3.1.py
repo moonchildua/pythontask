@@ -62,10 +62,64 @@
 # multiple(9,5)
 
 
-def multiple(tries,m):
-    from math import pi
-    from random import randint as lol
-    for i in range(tries):
-       print('multi n*pi = ',  pi * lol(1, m))
+# def multiple(tries,m):
+#     from math import pi
+#     from random import randint as lol
+#     for i in range(tries):
+#        print('multi n*pi = ',  pi * lol(1, m))
+#
+# multiple(5,5)
 
-multiple(5,5)
+#Task print 3  (col row)
+
+# def print_3 (n, m):
+#     for dummy_i in range (m):
+#         print ("3 " * n)
+#
+# print_3(5, 6)
+
+# #solution from teatcher
+# def print_3 (rows, cols):
+#     for dummy_i in range (cols):
+#         my_str = ""
+#         for dummy_j in range (rows):
+#             my_str += "3 "
+#         print (my_str)
+#
+# print_3(5, 4)
+
+# def print_3 (n, m):
+#     counter = 0
+#     for dummy_j in range (m):
+#         my_srt = ' '
+#         for dummy_i in range (n):
+#             counter += 1
+#             my_srt += str(counter)+ ' '
+#         print (my_srt)
+#
+# print_3(5, 4)
+
+#print ([[x for  x in range(10)] for y in range(5)])
+
+# task
+# 1 2 3 4 5
+#  2 3 4 5 6
+#  3 4 5 6 7
+#  4 5 6 7 8
+
+#
+# def print_matrix (rows, m):
+#     for j in range (m):
+#         counter = j
+#         my_srt = ' '
+#         for dummy_j in range (rows):
+#             counter += 1
+#             my_srt += str(counter)+ ' '
+#         print (my_srt)
+#
+# print_matrix(5, 6)
+
+
+
+
+
