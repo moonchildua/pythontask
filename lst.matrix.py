@@ -1,26 +1,18 @@
-def print_matrix (rows, col):
+def print_matrix (m, n):
     lst =[]
-    for j in range (rows):
-        counter = j
-        my_srt = []
-        for dummy_j in range (col):
+    counter = 0
+    for i in range (m):
+        counter = i
+        row = []
+        for dummy_j in range (n):
             counter += 1
-            my_srt += str(counter)
-        lst = lst + [my_srt]
-        print (my_srt)
-        return my_srt
+            row.append(counter)
+        lst.append(row)
+        #print (lst)
+    return lst
 
 
-def create_list (my_str):  # передаем значение
-    converted_to_list = [my_str]   # переменнойconverted_to_list присваиваем  значение element
-    print(converted_to_list)
-    lst_result = converted_to_list + input_list  #  сделали действие над входным списком и елементом
-    return lst_result
+# row = 2 #int(input(("input row")))
+# col = 3 #int(input(("input col")))
 
-
-
-
-row = 2 #int(input(("input row")))
-col = 3 #int(input(("input col")))
-
-print_matrix(row,col)
+print(print_matrix(3, 6))
