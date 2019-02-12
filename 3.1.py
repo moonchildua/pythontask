@@ -108,16 +108,16 @@
 #  4 5 6 7 8
 
 #
-# def print_matrix (rows, m):
-#     for j in range (m):
-#         counter = j
-#         my_srt = ' '
-#         for dummy_j in range (rows):
-#             counter += 1
-#             my_srt += str(counter)+ ' '
-#         print (my_srt)
-#
-# print_matrix(5, 6)
+def print_matrix (rows, m):
+    for j in range (m):
+        counter = j
+        my_srt = ' '
+        for dummy_j in range (rows):
+            counter += 1
+            my_srt += str(counter)+ ' '
+        print (my_srt)
+
+print_matrix(5, 6)
 
 
 

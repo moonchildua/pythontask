@@ -68,11 +68,14 @@
 # assert  count_letter(praze, 'd') == 1
 # assert  count_letter(praze, 'a') == 0
 
-lst1 = [1, 2, 3, 4, 5, 6, 7]
-lst2 = lst1[:]
+# lst1 = [1, 2, 3, 4, 5, 6, 7]
+# lst2 = lst1[:]
+#
+# lst1[0] = 99
+#
+# print(lst1)
+# print(lst2)
 
-lst1[0] = 99
+lst1 = [[1, 2, 4], [3, 4], [5, 6, 7]]
 
-print(lst1)
-print(lst2)
-
+print(lst1[1][1])
